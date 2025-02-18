@@ -1,17 +1,27 @@
 # Git Project Setup Documentation
+## Table of Contents
+- [Git Setup](#local-git-setup)
+  - [Configure Git Identity for the Current Project](#configure-git-identity-for-the-current-project)
+- [Global Git Setup](#global-git-setup)
+  - [Configure Git Identity Globally for All Projects](#configure-git-identity-globally-for-all-projects)
+- [Add Files and Push to Repository](#add-files-and-push-to-repository)
+  - [HTTPS](#https)
+    - [Create a New Repository](#create-a-new-repository)
+    - [Push an Existing Folder to the Repository](#push-an-existing-folder-to-the-repository)
+    - [Push an Existing Git Repository](#push-an-existing-git-repository
 
 ## Local Git Setup
 ### Configure Git Identity for the Current Project
 ```bash
 git config --local user.name "username"
-git config --local user.email "user@email.com"
+git config --local user.email "user@gmail.com"
 ```
 
 ## Global Git Setup
 ### Configure Git Identity Globally for All Projects
 ```bash
 git config --global user.name "username"
-git config --global user.email "user@email.com"
+git config --global user.email "user@gmail.com"
 ```
 
 ---
