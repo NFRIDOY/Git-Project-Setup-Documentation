@@ -8,7 +8,7 @@
   - [HTTPS](#https)
     - [Create a New Repository](#create-a-new-repository)
     - [Push an Existing Folder to the Repository](#push-an-existing-folder-to-the-repository)
-    - [Push an Existing Git Repository](#push-an-existing-git-repository
+    - [Push an Existing Git Repository](#push-an-existing-git-repository)
 
 ## Local Git Setup
 ### Configure Git Identity for the Current Project
