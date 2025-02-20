@@ -25,7 +25,8 @@ git config --global user.name "username"
 git config --global user.email "user@gmail.com"
 ```
 
-## Git Origin Remove (don't do it)
+## Git Origin Remove 
+*(don't do it)*
 ```bash
 git remote rm origin
 ```
