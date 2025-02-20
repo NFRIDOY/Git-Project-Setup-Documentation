@@ -27,6 +27,11 @@ git config --global user.email "user@gmail.com"
 
 ## Git Origin Remove 
 *(don't do it)*
+Process
+```bash
+git remote rm YOUR-OLD-ORIGIN
+```
+*(don't do it)*
 ```bash
 git remote rm origin
 ```
