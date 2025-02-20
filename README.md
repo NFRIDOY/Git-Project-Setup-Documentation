@@ -4,6 +4,7 @@
   - [Configure Git Identity for the Current Project](#configure-git-identity-for-the-current-project)
 - [Global Git Setup](#global-git-setup)
   - [Configure Git Identity Globally for All Projects](#configure-git-identity-globally-for-all-projects)
+- [Git Origin Remove](#git-origin-remove)
 - [Add Files and Push to Repository](#add-files-and-push-to-repository)
   - [HTTPS](#https)
     - [Create a New Repository](#create-a-new-repository)
@@ -22,6 +23,11 @@ git config --local user.email "user@gmail.com"
 ```bash
 git config --global user.name "username"
 git config --global user.email "user@gmail.com"
+```
+
+## Git Origin Remove (don't do it)
+```bash
+git remote rm origin
 ```
 
 ---
