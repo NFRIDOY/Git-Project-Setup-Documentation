@@ -89,15 +89,23 @@ git remote rm origin
    cd existing_repo
    ```
 2. Configure the Git repository:
+   1. Rename old-origin
    ```bash
    git remote rename origin old-origin
+   ```
+   2. Set your origin
+   ```bash
    git remote add origin https://gitlab.com/username/project_slug.git
    ```
-3. Push all branches:
+   3. **[If You Want]** Remove old-origin
+   ```bash
+   git remote remove old-origin
+   ```
+4. Push all branches:
    ```bash
    git push --set-upstream origin --all
    ```
-4. Push all tags:
+5. Push all tags:
    ```bash
    git push --set-upstream origin --tags
    ```
